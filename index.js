@@ -6,6 +6,7 @@ function nestedTarget() {
   return document.querySelector('#nested .target');
 }
 
+//innerHTML property sets or returns the HTML content (inner HTML) of an element
 function increaseRankBy(n){
   const rank = document.getElementsByClassName("ranked-list");
 
